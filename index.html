@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portifolio DNC</title>
+  </head>
+  <body>
+    <!-- Seção Menu -->
+    <div class="container">
+      <div id="header">Portifólio</div>
+      <div id="menu">
+        <ul>
+          <li><a href="#services">Meus Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#portifolioTitle">Portifólio</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Seção Informação -->
+    <div class="container">
+      <div id="headerCta">
+        <h1>
+          Olá meu nome<br />
+          é Maria
+        </h1>
+        <p class="gray">
+          Sou programadora e gostaria de apresentar meu<br />
+          trabalho para você através deste portfólio.
+        </p>
+        <a id="buttonCta" href="">Meus Serviços</a>
+      </div>
+      <div id="headerImg">
+        <img src="images/maria.svg" />
+      </div>
+    </div>
+
+    <!-- Seção Clientes -->
+    <div class="container" id="clients">
+      <div id="headerClient">
+        Algum dos <br />
+        meus clientes
+      </div>
+      <div class="headerLogo">
+        <img src="images/apple.svg" />
+      </div>
+      <div class="headerLogo">
+        <img src="images/slack.svg" />
+      </div>
+      <div class="headerLogo">
+        <img src="images/spotify.svg" />
+      </div>
+    </div>
+
+    <!-- Seção Serviços -->
+    <div class="container" id="services">
+      <div class="textCenter">
+        <h2 class="red">Conheça</h2>
+        <h1 class="black">Meus Serviços</h1>
+        <p class="gray">
+          Vou ajudar a sua empresa a <br />
+          alcançar grandes resultados.
+        </p>
+      </div>
+    </div>
+
+    <div class="container" id="services">
+      <div class="textCenter">
+        <img src="images/consult.svg" />
+        <h3>Consultoria</h3>
+        <p class="gray">
+          Te ajudo a organizar sua empresa<br />
+          e melhorar seus resultados.
+        </p>
+      </div>
+      <div class="textCenter">
+        <img src="images/email.svg" />
+        <h3>Email Marketing</h3>
+        <p class="gray">
+          Gerenciar campanhas é difícil.<br />
+          Conte comigo para te ajudar.
+        </p>
+      </div>
+      <div class="textCenter">
+        <img src="images/sites.svg" />
+        <h3>Criação de Sites</h3>
+        <p class="gray">
+          Desenvolvo seu site inteiro<br />
+          do zero e te entrego prontinho.
+        </p>
+      </div>
+    </div>
+
+    <!-- Formulario -->
+    <div class="container" id="contact">
+      <div id="contactImg">
+        <img src="images/forms.svg" />
+      </div>
+      <div id="contactForm">
+        <h2 class="red">Economize seu tempo</h2>
+        <h1 class="black">Ganhe mais dinheiro</h1>
+        <p class="gray">
+          Digite aqui seu endereço de e-mail. Eu entrarei em<br />
+          contato para fornecer um diagnóstico gratuito.
+        </p>
+        <form
+          action="https://formspree.io/f/mleqjwvq"
+          method="POST"
+          target="_blank"
+        >
+          <p>
+            <input
+              placeholder="e-mail"
+              type="text"
+              required
+              name="contactEmail"
+            />
+          </p>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Portifólio -->
+    <div class="container" id="portifolioTitle">
+      <div>
+        <h2 class="red">Conheça o meu</h2>
+        <h1 class="black">Portifólio</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="portifolioImg">
+        <img src="images/pot1.svg" />
+      </div>
+      <div class="portifolioImg">
+        <img src="images/port2.svg" />
+      </div>
+      <div class="portifolioImg">
+        <img src="images/port3.svg" />
+      </div>
+    </div>
+  </body>
+</html>
